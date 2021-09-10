@@ -13,10 +13,10 @@
 </head>
 <body>
     <nav>
-
+        @include ('components.nav')
     </nav>
     <main>
-        @include('components.main')
+        @yield('content')
     </main>
 </body>
 </html>
