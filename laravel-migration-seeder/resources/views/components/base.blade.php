@@ -12,9 +12,9 @@
     
 </head>
 <body>
-    <nav>
-        @include ('components.nav')
-    </nav>
+    <div>
+        @include('components.nav')
+    </div>
     <main>
         @yield('content')
     </main>
