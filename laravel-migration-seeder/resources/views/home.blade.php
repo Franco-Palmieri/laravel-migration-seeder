@@ -5,7 +5,7 @@
         @foreach($allTrips as $trip)
         
             <div class="card-container">
-            <a href="#">
+            <a href="/trip/id">
                 <div class="card-content">
                     <div class="city">{{$trip->city}}</div>
                     <img src="{{$trip->cover}}" alt="">
